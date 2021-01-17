@@ -16,7 +16,7 @@ top = Toplevel()
 top.geometry('300x300')
 top.title('Login Screen')
 top.configure(background='white')
-photo2 = PhotoImage(file='img.png')
+photo2 = PhotoImage(file='') #your imagefile name 
 photo = Label(top, image = photo2, bg = 'white')
 lbl1 = Label(top, text='Username',font=('Helvetica',10))
 entry1 = Entry(top)
